@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Invideas</title>
+<meta charset="utf-8"/>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="css.css">
+</head>
+<style>
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+header {
+  padding: 20px 0;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url('https://a.travel-assets.com/findyours-php/viewfinder/images/res60/53000/53049-Wall-Street--Lower-Manhattan.jpg');
+  background-size: cover;
+  color: #ffffff;
+  height: 500px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+}
+
+.jumbotron h3 {
+  margin: 0 0 20px;
+  color: #fff;
+}
+
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+}
+
+.col-md-6 {
+  margin: 0 0 30px;
+}
+
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: #fbd1d5;
+  text-shadow: none;
+  background-color: #ffffff;
+}
+
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: #fbd1d5;
+}
+
+.btn-secondary {
+  background-color: #E8DFE0;
+  color: #ffffff;
+  margin: 0 0 30px;
+}
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
+
+</style>
+<body>
+<header class="container">
+<div class="row">
+<h1 class="col-sm-4">Invideas</h1>
+<nav class="col-sm-8 text-right">
+<button type="button" onclick="window.location.href='https://invideasblog.blogspot.com/2018/06/the-great-depression.html'">latest</button>
+<button type="button" onclick="window.location.href='https://invideasblog.blogspot.com/?view=sidebar'">articles</button>
+<button type="button" onclick="window.location.href='https://plus.google.com/101791489439568148547'">contact</button>
+</nav>
+</div>
+</header>
+<section class="jumbotron">
+<div class="container">
+<div class="row text-center">
+<h2>The World of Investing</h2>
+<h3>News and analysis</h3>
+<a class="btn btn-primary" href="https://invideasblog.blogspot.com/" role="button"><font color="purple"><b>See all</b></font></a>
+</div>
+</div>
+</section>
+<section class="container">
+<div class="row">
+<figure class="col-sm-6">
+<center><h3>News</h3></center>
+<a href="https://invideasblog.blogspot.com/2016/10/bank-of-america-tops-q3.html">
+<img src="https://2.bp.blogspot.com/-vDPrXQK_alc/WAUz6Q2IJ9I/AAAAAAAAAEk/YsRprUA26K8x6OYa_F-ExqUP9927gNTugCLcB/s640/Bank-of-America.jpg"/>
+</a>
+</figure>
+<figure class="col-sm-6">
+<center><h3>Analysis</h3></center>
+<a href="https://invideasblog.blogspot.com/2016/11/what-is-trumps-economic-plan-donald.html">
+<img src="https://3.bp.blogspot.com/-wNzV7m7XFaY/WDy0kQXhiFI/AAAAAAAAAE4/co7xZnQFtCMPNfn514KuFoWMbhYJxE18gCLcB/s400/Donald%2BTrump.jpg"/>
+</a>
+</figure>
+</div>
+<div class="row">
+<figure class="col-sm-6">
+<center><h3>Essays</h3></center>
+<a href="https://invideasblog.blogspot.com/2018/06/the-great-depression.html">
+<img src="https://www.offthegridnews.com/wp-content/uploads/2015/08/great-depression-1.jpg"/>
+</a>
+</figure>
+<figure class="col-sm-6">
+<center><h3>Investing Ideas</h3></center>
+<a href="https://invideasblog.blogspot.com/2016/08/how-to-make-money-trading-penny-stocks.html">
+<img src="https://1.bp.blogspot.com/-3-IGoJpz6DU/V7rZasLw35I/AAAAAAAAABY/-yD-iBRam5sah9KQW2DIVs3BOoFI8SnMACLcB/s400/101827095-157295701.1910x1000.jpg"/>
+</a>
+</figure>
+</div>
+</section>
+<footer class="container">
+<div class="row">
+<p class="col-sm-4">&copy; 2016 Invideas</p>
+<ul class="col-sm-8">
+<li class="col-sm-1">
+<img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/twitter.svg">
+</li>
+<li class="col-sm-1">
+<img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/facebook.svg">
+</li>
+<li class="col-sm-1">
+<img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/instagram.svg">
+</li>
+<li class="col-sm-1">
+<img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/medium.svg">
+</li>
+</ul>
+</div>
+</footer>
+</body>
+</html>
