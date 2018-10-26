@@ -1,0 +1,2 @@
+# InvestingIdeas
+My first website-
